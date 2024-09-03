@@ -1,0 +1,15 @@
+import 'dart:io';
+
+
+void main(){
+  
+  
+
+  double temp_C = double.parse(stdin.readLineSync()!);
+
+
+  double result = temp_C*(9/5)+32;
+  
+  print('The temperature in Fahrenheit is: '+result.toStringAsFixed(2));
+
+}
