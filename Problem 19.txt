@@ -1,0 +1,19 @@
+import 'dart:io';
+
+void main() {
+
+  String input = stdin.readLineSync() ?? '';
+
+  List<String> num = input.split(' ');
+
+  int a = int.parse(num[0]);
+  int b = int.parse(num[1]);
+  int c = int.parse(num[2]);
+
+  double res = (a+b+c)/3;
+  String r = res.toStringAsFixed(2);
+  print('Average: $r');
+
+
+
+}

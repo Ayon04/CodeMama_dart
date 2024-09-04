@@ -1,0 +1,10 @@
+import 'dart:io';
+ 
+void main() {
+    // Write your dart code from here
+
+  String? name = stdin.readLineSync();
+  print('Hello, $name! Nice to meet you.');
+
+    
+}

@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main() {
+
+  double? n = double.parse(stdin.readLineSync()!);
+
+  double res = n*(0.10);
+
+  print(res.toInt());
+
+
+}

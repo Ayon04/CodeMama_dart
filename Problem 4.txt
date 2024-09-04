@@ -1,0 +1,19 @@
+import 'dart:io';
+
+void main() {
+
+  String input = stdin.readLineSync() ?? '';
+
+  List<String> num = input.split(' ');
+
+  int base = int.parse(num[0]);
+  int height = int.parse(num[1]);
+
+  double res = (1/2*base)*height;
+
+  print(res.toInt());
+
+
+
+
+}

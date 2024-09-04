@@ -1,0 +1,18 @@
+import 'dart:io';
+
+void main() {
+
+  String input = stdin.readLineSync() ?? '';
+
+  List<String> num = input.split(' ');
+
+  int a = int.parse(num[0]);
+  int b = int.parse(num[1]);
+
+  double res = a / b;
+  print(res.toInt());
+
+
+
+
+}

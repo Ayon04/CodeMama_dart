@@ -1,0 +1,22 @@
+import 'dart:io';
+
+void main() {
+  String input = stdin.readLineSync() ?? '';
+
+  List<String> num = input.split(' ');
+
+  if (num.length == 3) {
+    
+    int num_1 = int.parse(num[0]);
+    int num_2 = int.parse(num[1]);
+    int num_3 = int.parse(num[2]);
+
+    if (num_1 < num_2 && num_1 < num_3) {
+      print(num_1);
+    } else if (num_2 < num_1 && num_2 < num_3) {
+      print(num_2);
+    } else {
+      print(num_3);
+    }
+  } 
+}
